@@ -10,7 +10,7 @@ export default async function Nav() {
     return (
         <header>
             <nav>
-                <ul className="flex justify-between text-neutral-50">
+                <ul className="flex justify-between bg-stone-300">
                     <li>Logo</li>
                     {!session ? (
                         <li>
